@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import Signs from './Signs/Signs'
 
-import './Home.css';
-import virgo from './../../img/virgo.png'
+import './Virgo.css';
 
 class Home extends Component {
 
@@ -17,7 +15,6 @@ class Home extends Component {
         <div id="home_title" className="fadeIn">
           <h1 className="floating">empyrean</h1>
         </div>
-        <Signs />
       </div>
     );
   }

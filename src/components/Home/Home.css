@@ -1,25 +1,31 @@
 .home{
     width: 100%;
+    height: 100vh;
 }
 #home_title{
     color: white;
-    /* border: 2px solid white; */
+    /* border: 2px solid white;   */
     z-index: 5;
     font-family: 'Megrim', cursive;
-    text-align: center;
-    font-size: 100px;
-    height: 100px;
-    width: 300px;
-    position: absolute;
-    top: 100px;
-    right: 100px;
+    text-align: right;
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding-top: 25px;
+    padding-right: 20px;
     visibility: hidden;
 }
 #home_title h1{
-     font-family: 'Megrim', cursive; 
+     font-family: 'Megrim', cursive;
+     font-size: 100px; 
     /* font-family: 'Gloria Hallelujah', cursive; */
      /* font-family: 'Indie Flower', cursive;  */
      /* font-family: 'Amatic SC', cursive;  */
+}
+@media(max-width: 480px){
+    #home_title h1{
+        font-size: 50px;
+    }
 }
 * {
     margin: 0;
@@ -73,6 +79,7 @@
 .stars {
   background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
   z-index:0;
+  position: fixed;
 }
 
 .twinkling{
