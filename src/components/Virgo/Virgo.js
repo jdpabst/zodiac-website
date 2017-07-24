@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import './Virgo.css';
 
-class Home extends Component {
+class Virgo extends Component {
 
   render() {
     return (
@@ -13,12 +13,15 @@ class Home extends Component {
           {/* <div className="clouds"></div>  */}
         </div>
         <div id="home_title" className="fadeIn">
-          <h1 className="floating">empyrean</h1>
+          <h1 className="floating">virgo</h1>
         </div>
+        <div id="virgo_info">
+        </div>
+        <p>Testing the div space...</p>
       </div>
     );
   }
 }
 
 
-export default Home;
+export default Virgo;

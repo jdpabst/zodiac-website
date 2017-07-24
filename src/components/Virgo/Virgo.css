@@ -1,0 +1,21 @@
+#virgo_info{
+    position: relative;
+    top: 75px;
+    height: 70%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 5;
+    background: #D3F2D4;
+    opacity: 0.4;
+    text-align: center;
+}
+p{
+    position: absolute;
+    top: 250px;
+    width: 200px;
+    left: 450px;
+    color: white;
+    opacity: 1;
+    z-index: 5;
+}
