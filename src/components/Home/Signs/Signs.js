@@ -65,10 +65,12 @@ class Signs extends Component {
               <p>ARIES</p>
             </div>
           </Link>
-          <div className="sign">
-            <img src="https://i2.wp.com/madamastrology.com/wp-content/uploads/2014/11/aquarius_symbol_madamastrology1.png"/>
-            <p>AQUARIUS</p>
-          </div>
+          <Link to='/aqua' style={{textDecoration: 'none'}}>
+            <div className="sign">
+              <img src="https://i2.wp.com/madamastrology.com/wp-content/uploads/2014/11/aquarius_symbol_madamastrology1.png"/>
+              <p>AQUARIUS</p>
+            </div>
+          </Link>
           <div className="sign">
             <img src="https://i2.wp.com/madamastrology.com/wp-content/uploads/2014/11/leo_symbol_madamastrology1.png"/>
             <p>LEO</p>

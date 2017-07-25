@@ -12,6 +12,7 @@ import Libra from './components/Libra/Libra.js';
 import Cap from './components/Cap/Cap.js';
 import Can from './components/Can/Can.js';
 import Aries from './components/Aries/Aries.js';
+import Aqua from './components/Aqua/Aqua.js';
 
 export default (
     <Switch>
@@ -25,5 +26,6 @@ export default (
         <Route component={ Cap } path='/cap'/>
         <Route component={ Can } path='/can'/>
         <Route component={ Aries } path='/aries'/>
+        <Route component={ Aqua } path='/aqua'/>
     </Switch>
 )
