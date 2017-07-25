@@ -1,4 +1,4 @@
-#aqua_info{
+#leo_info{
     position: relative;
     top: 75px;
     height: 70%;
@@ -6,7 +6,7 @@
     margin-left: auto;
     margin-right: auto;
     z-index: 5;
-    background: #6DF5FE;
+    background: #FEBE7E;
     opacity: 0.4;
     text-align: center;
 }
