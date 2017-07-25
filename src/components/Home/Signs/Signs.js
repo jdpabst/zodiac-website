@@ -77,10 +77,12 @@ class Signs extends Component {
               <p>LEO</p>
             </div>
           </Link>
-          <div className="sign">
-            <img src="https://i2.wp.com/madamastrology.com/wp-content/uploads/2014/11/gemini_symbol_madamastrology1.png"/>
-            <p>GEMINI</p>
-        </div>
+          <Link to='/gem' style={{textDecoration: 'none'}}>
+            <div className="sign">
+              <img src="https://i2.wp.com/madamastrology.com/wp-content/uploads/2014/11/gemini_symbol_madamastrology1.png"/>
+              <p>GEMINI</p>
+            </div>
+          </Link>
         </div>
       </div>
     );

@@ -14,6 +14,7 @@ import Can from './components/Can/Can.js';
 import Aries from './components/Aries/Aries.js';
 import Aqua from './components/Aqua/Aqua.js';
 import Leo from './components/Leo/Leo.js';
+import Gem from './components/Gem/Gem.js';
 
 export default (
     <Switch>
@@ -29,5 +30,6 @@ export default (
         <Route component={ Aries } path='/aries'/>
         <Route component={ Aqua } path='/aqua'/>
         <Route component={ Leo } path='/leo'/>
+        <Route component={ Gem } path='/gem'/>
     </Switch>
 )
