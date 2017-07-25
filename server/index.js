@@ -27,5 +27,5 @@ massive({
 
 
 
-
-app.listen(3000, console.log("you are now connected"));
+const port = 3000;
+app.listen(port, console.log("you are now connected"));
