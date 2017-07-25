@@ -1,4 +1,4 @@
-#can_info{
+#aries_info{
     position: relative;
     top: 75px;
     height: 70%;
@@ -6,7 +6,7 @@
     margin-left: auto;
     margin-right: auto;
     z-index: 5;
-    background: #CAE3FB;
+    background: #FE9191;
     opacity: 0.4;
     text-align: center;
 }
