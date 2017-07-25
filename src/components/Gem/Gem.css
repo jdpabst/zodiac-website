@@ -6,19 +6,22 @@
     margin-left: auto;
     margin-right: auto;
     z-index: 5;
-    background: #FEBE7E;
+    background: #C0C0C0;
     opacity: 0.4;
     text-align: center;
 }
 #sign_info_container{
     position: absolute;
-    top: 250px;
-    width: 800px;
+    width: 50%;
+    top: 220px;
+    left: 25%;
     height: auto;
-    left: calc(50% - 400px);
     z-index: 5;
-    /* border: 2px solid white; */
+     border: 2px solid white; 
 }
+    /* @media(max-width: 1370px){
+
+    } */
  h2{
     color: white;
      /* font-family: 'Gruppo', cursive;  */
