@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 
-import './Virgo.css';
+import './Libra.css';
 
-class Virgo extends Component {
+class Libra extends Component {
 
   render() {
     return (
@@ -15,19 +15,18 @@ class Virgo extends Component {
         </div>
         <Link to='/' style={{textDecoration: 'none'}}>
           <div id="home_title" className="fadeIn">
-            <h1 className="floating">virgo</h1>
+            <h1 className="floating">libra</h1>
           </div>
         </Link>
-        <div id="virgo_info">
+        <div id="libra_info">
         </div>
-        <div id="sign_info_container">
+         <div id="sign_info_container">
           <h2>Testing the div space...</h2>
         </div>
-        
       </div>
     );
   }
 }
 
 
-export default Virgo;
+export default Libra;

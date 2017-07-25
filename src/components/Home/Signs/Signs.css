@@ -6,14 +6,14 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    /* border: 2px solid hotpink; */
+     /* border: 2px solid hotpink;  */
     z-index: 5;
     position: relative; 
     top: 130px;  
 }
 #sign_holder img{
     position: relative;
-    /* border: 2px solid white;  */
+     /* border: 2px solid white;   */
     height: 135px;
     width: auto;
     /* margin-bottom: 10px; */
@@ -21,10 +21,11 @@
     z-index: 5;
 }
 .sign{
-    display: flex;
+     display: flex;
     flex-wrap:wrap;
-    justify-content: space-around;
+    justify-content: space-around; 
     height: auto;
+    /* border: 2px solid lime; */
     width: 100px;
     position: relative;
     color: white;

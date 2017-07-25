@@ -17,34 +17,48 @@ class Signs extends Component {
               <p>VIRGO</p>
             </div>
           </Link>
-          <div className="sign">
-            <img src="https://i0.wp.com/madamastrology.com/wp-content/uploads/2014/11/taurus_symbol_madamastrology1.png"/>
-            <p>TAURUS</p>
-          </div>
-          <div className="sign">
-            <img src="https://i2.wp.com/madamastrology.com/wp-content/uploads/2014/11/scorpio_symbol_madamastrology1.png"/>
-            <p>SCORPIO</p>
-          </div>
-          <div className="sign">
-            <img src="https://i2.wp.com/madamastrology.com/wp-content/uploads/2014/11/sagittarius_symbol_madamastrology1.png"/>
-            <p>SAGITTARIUS</p>
-          </div>
-          <div className="sign">
-            <img src="https://i2.wp.com/madamastrology.com/wp-content/uploads/2014/11/pisces_symbol_madamastrology1.png"/>
-            <p>PISCES</p>
-          </div>
-          <div className="sign">
-            <img src="https://i2.wp.com/madamastrology.com/wp-content/uploads/2014/11/libra_symbol_madamastrology1.png"/>
-            <p>LIBRA</p>
-          </div>
-          <div className="sign">
-            <img src="https://i2.wp.com/madamastrology.com/wp-content/uploads/2014/11/capricorn_symbol_madamastrology1.png"/>
-            <p>CAPRICORN</p>
-          </div>
-          <div className="sign">
-            <img src="https://i2.wp.com/madamastrology.com/wp-content/uploads/2014/11/cancer_symbol_madamastrology1.png"/>
-            <p>CANCER</p>
-          </div>
+          <Link to='/taurus' style={{textDecoration: 'none'}}>
+            <div className="sign">
+              <img src="https://i0.wp.com/madamastrology.com/wp-content/uploads/2014/11/taurus_symbol_madamastrology1.png"/>
+              <p>TAURUS</p>
+            </div>
+          </Link>
+          <Link to='/scorpio' style={{textDecoration: 'none'}}>
+            <div className="sign">
+              <img src="https://i2.wp.com/madamastrology.com/wp-content/uploads/2014/11/scorpio_symbol_madamastrology1.png"/>
+              <p>SCORPIO</p>
+            </div>
+          </Link>
+          <Link to='/sagi' style={{textDecoration: 'none'}}>
+            <div className="sign">
+              <img src="https://i2.wp.com/madamastrology.com/wp-content/uploads/2014/11/sagittarius_symbol_madamastrology1.png"/>
+              <p>SAGITTARIUS</p>
+            </div>
+          </Link>
+          <Link to='/pisces' style={{textDecoration: 'none'}}>
+            <div className="sign">
+              <img src="https://i2.wp.com/madamastrology.com/wp-content/uploads/2014/11/pisces_symbol_madamastrology1.png"/>
+              <p>PISCES</p>
+            </div>
+          </Link>
+          <Link to='/libra' style={{textDecoration: 'none'}}>
+            <div className="sign">
+              <img src="https://i2.wp.com/madamastrology.com/wp-content/uploads/2014/11/libra_symbol_madamastrology1.png"/>
+              <p>LIBRA</p>
+            </div>
+          </Link>
+          <Link to='/cap' style={{textDecoration: 'none'}}>
+            <div className="sign">
+              <img src="https://i2.wp.com/madamastrology.com/wp-content/uploads/2014/11/capricorn_symbol_madamastrology1.png"/>
+              <p>CAPRICORN</p>
+            </div>
+          </Link>
+          <Link to='/can' style={{textDecoration: 'none'}}>
+            <div className="sign">
+              <img src="https://i2.wp.com/madamastrology.com/wp-content/uploads/2014/11/cancer_symbol_madamastrology1.png"/>
+              <p>CANCER</p>
+            </div>
+          </Link>
           <div className="sign">
             <img src="https://i2.wp.com/madamastrology.com/wp-content/uploads/2014/11/aries_symbol_madamastrology1.png"/>
             <p>ARIES</p>

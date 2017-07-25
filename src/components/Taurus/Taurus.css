@@ -1,4 +1,4 @@
-#virgo_info{
+#taurus_info{
     position: relative;
     top: 75px;
     height: 70%;
@@ -6,7 +6,7 @@
     margin-left: auto;
     margin-right: auto;
     z-index: 5;
-    background: #D3F2D4;
+    background: #309CE5;
     opacity: 0.4;
     text-align: center;
 }
