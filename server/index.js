@@ -2,35 +2,30 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 var massive = require('massive');
-var session = require('express-session');
-var config = require('./config.js');
+const userCtrl = require('./userController');
 
 const app = module.exports = express();
 
 app.use(bodyParser.json());
-app.use(session({
-  secret: config.secret,
-    resave: true,
-    saveUninitialized: false,
-    cookie:{
-      maxAge: (1000*60*60*24*14) //this is 14 days
-    }
-}))
+app.use(cors());
 
-var conn = massive.connectSync({
-  connectionString: config.connectionString
+massive({
+  host: "ec2-54-163-236-33.compute-1.amazonaws.com",
+  port: 5432,
+  database: "d8dcgmh99r38gn",
+  user: "cmgbyjhgpwetci",
+  password: "f3610806c80e4f79fba373fb1ccc11e409d0cd7d79bb39bd84ba7cd91b51fcbe",
+  ssl: true
+}).then( db => {
+  app.set('db', db);
+  db.create_table().then( res => {
+    console.log("Sign table init");
+  })
 })
 
-
-app.use(express.static(__dirname + './../build'))
-app.set('db',conn);
-var db = app.get('db');
-
-var userController = require("./userController.js");
-
-//////////Endpoints for the front end
+//////////Endpoints for the front end/////////////////
 
 
 
 
-app.listen(config.port, console.log("you are now connected on " + config.port));
+app.listen(3000, console.log("you are now connected"));
