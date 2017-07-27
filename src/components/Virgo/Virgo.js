@@ -14,7 +14,7 @@ class Virgo extends Component {
     }
 
     componentDidMount(){
-        axios.get(`/api/signs`).then( signsArr => {
+        axios.get(`/api/signs/virgo`).then( signsArr => {
             this.setState({
                signsArr: signsArr.data,
             })

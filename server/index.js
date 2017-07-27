@@ -25,18 +25,18 @@ massive({
 })
 
 //////////Endpoints for the front end/////////////////
-app.get('/api/signs', userCtrl.virgo)
-app.get('/api/signs', userCtrl.taurus)
-app.get('/api/signs', userCtrl.scorpio)
-app.get('/api/signs', userCtrl.sagi)
-app.get('/api/signs', userCtrl.pisces)
-app.get('/api/signs', userCtrl.libra)
-app.get('/api/signs', userCtrl.cap)
-app.get('/api/signs', userCtrl.can)
-app.get('/api/signs', userCtrl.aries)
-app.get('/api/signs', userCtrl.aqua)
-app.get('/api/signs', userCtrl.leo)
-app.get('/api/signs', userCtrl.gem)
+app.get('/api/signs/virgo', userCtrl.virgo)
+app.get('/api/signs/taurus', userCtrl.taurus)
+app.get('/api/signs/scorpio', userCtrl.scorpio)
+app.get('/api/signs/sagi', userCtrl.sagi)
+app.get('/api/signs/pisces', userCtrl.pisces)
+app.get('/api/signs/libra', userCtrl.libra)
+app.get('/api/signs/cap', userCtrl.cap)
+app.get('/api/signs/can', userCtrl.can)
+app.get('/api/signs/aries', userCtrl.aries)
+app.get('/api/signs/aqua', userCtrl.aqua)
+app.get('/api/signs/leo', userCtrl.leo)
+app.get('/api/signs/gem', userCtrl.gem)
 
 
 

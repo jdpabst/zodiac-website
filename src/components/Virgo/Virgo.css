@@ -11,9 +11,14 @@
     text-align: center;
     margin-bottom: 50px;
 }
+@media(min-height: 1020px){
+    #virgo_info{
+        height: 50%;
+    }
+}
 #sign_info_container{
     position: absolute;
-    width: 56%;
+    width: 55%;
     top: 220px;
     left: 22.5%;
     height: auto;
@@ -23,12 +28,12 @@
     height: 400px;
     position: relative;
 }
-@media(max-width: 810px){
+@media(max-width: 957px){
     .planet{
         height: 200px;
     }
 }
-@media(max-width){
+@media(max-width: 390px){
     .planet{
         height: 150px;
         left: 6px;
@@ -41,7 +46,7 @@
     position: absolute; 
     top: 60px;
     right: 20px;
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
 }
  h2{
     color: white;
@@ -59,8 +64,47 @@
 }
 p{
     color: #fff;
-    font-family: Walter Turncoat,cursive;
+    font-family: 'Walter Turncoat', cursive;
     font-weight: 100;
     font-size: 20px;
     text-align: center;
+    margin-top: 40px;
+}
+@media(max-width: 1409px){
+    .planet{
+        height: 300px;
+    }
+    #birth_constellation{
+        top: 25px;
+        right: 15px
+    }
+    h2{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .constellation{
+        height: 175px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+@media(max-width: 1113px){
+    .planet{
+        height: 250px;
+    }
+    #birth_constellation{
+        top: 25px;
+        right: 15px
+    }
+    h2{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .constellation{
+        height: 135px;
+    }
+    p{
+        font-size: 16px;
+    }
 }
