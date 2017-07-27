@@ -131,6 +131,8 @@ p{
     .planet{
         height: 150px;
     }
+}
+@media(min-width: 414px){
     #sign_info_container{
         top: 160px;
     }
