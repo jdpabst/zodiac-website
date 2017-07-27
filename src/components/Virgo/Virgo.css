@@ -111,18 +111,23 @@ p{
         text-align: center;
         position: relative;
         right: 0;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         margin-left: auto;
         margin-right: auto;
         display: block;
     }
 }
-@media(max-width: 390px){
+@media(max-width: 620px){
+    .planet{
+        height: 200px;
+    }
+}
+@media(max-width: 414px){
     .planet{
         height: 150px;
         left: 6px;
     }
     #sign_info_container{
-        top: 160px;
+        top: 150px;
     }
 }
