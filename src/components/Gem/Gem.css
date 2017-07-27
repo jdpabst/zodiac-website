@@ -10,22 +10,3 @@
     opacity: 0.4;
     text-align: center;
 }
-#sign_info_container{
-    position: absolute;
-    width: 50%;
-    top: 220px;
-    left: 25%;
-    height: auto;
-    z-index: 5;
-     border: 2px solid white; 
-}
-    /* @media(max-width: 1370px){
-
-    } */
- h2{
-    color: white;
-     /* font-family: 'Gruppo', cursive;  */
-     /* font-family: 'Maven Pro', sans-serif;  */
-     font-family: 'Walter Turncoat', cursive; 
-    font-weight: 100;
-} 

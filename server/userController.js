@@ -81,7 +81,7 @@ module.exports = {
   },
     aries: function(req, res, next){
       const db = req.app.get('db');
-      db.get_aires()
+      db.get_aries()
         .then(function(response){
             res.status(200).send(response);
         })

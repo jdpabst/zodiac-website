@@ -1,2 +1,2 @@
 SELECT * FROM signs
-WHERE name ILIKE 'aires'
+WHERE name ILIKE 'aries'

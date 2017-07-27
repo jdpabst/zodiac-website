@@ -1,11 +1,28 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
+import axios from 'axios';
 
 import './Scorpio.css';
 
 class Scorpio extends Component {
+  constructor(props){
+      super(props);
+      this.state = {
+        signsArr: [{}]
+      }
+    }
+
+    componentDidMount(){
+        axios.get(`/api/signs/scorpio`).then( signsArr => {
+            this.setState({
+               signsArr: signsArr.data,
+            })
+            console.log(signsArr)
+        })
+    }
 
   render() {
+    let signs = this.state.signsArr;
     return (
       <div className="home">
         <div id="animations">
@@ -21,7 +38,16 @@ class Scorpio extends Component {
         <div id="scorpio_info">
         </div>
          <div id="sign_info_container">
-          <h2>Testing the div space...</h2>
+          {signs.map( (sign, id) => {
+            return <div key={ id }id="sign_db_info">
+              <img className='planet'src={ signs[id].planet } />
+              <div id="birth_constellation">
+                <h2 className='birth'>{ signs[id].birthday }</h2>
+                <img className='constellation' src={ signs[id].constellation }/>
+              </div>
+              <p className='history'>{ signs[id].history }</p>
+            </div>
+          })}
         </div>
       </div>
     );

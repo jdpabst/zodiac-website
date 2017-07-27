@@ -1112,6 +1112,10 @@ stretchRight
     height: 400px;
     position: relative;
 }
+#planet{
+	height: 300px;
+	position: relative;
+}
 #birth_constellation{
     position: absolute; 
     top: 60px;
@@ -1140,10 +1144,21 @@ p{
     text-align: center;
     margin-top: 40px;
 }
+#cap_p{
+	color: #fff;
+    font-family: 'Walter Turncoat', cursive;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 70px;
+}
 @media(max-width: 1409px){
     .planet{
         height: 300px;
-    }
+	}
+	#planet{
+		height: 200px;
+	}
     #birth_constellation{
         top: 25px;
         right: 15px
@@ -1157,12 +1172,18 @@ p{
     }
     p{
         font-size: 18px;
-    }
+	}
+	#cap_p{
+		font-size: 18px;
+	}
 }
 @media(max-width: 1113px){
     .planet{
         height: 250px;
-    }
+	}
+	#planet{
+		height: 150px
+	}
     #birth_constellation{
         top: 25px;
         right: 15px
@@ -1176,7 +1197,10 @@ p{
     }
     p{
         font-size: 16px;
-    }
+	}
+	#cap_p{
+		font-size: 16px;
+	}
 }
 /* @media(min-height: 1000px){
     #virgo_info{
@@ -1186,7 +1210,10 @@ p{
 @media(max-width: 957px){
     .planet{
         height: 200px;
-    }
+	}
+	#planet{
+		height: 100px
+	}
 }
 @media(max-width: 850px){
     .planet{
@@ -1194,7 +1221,13 @@ p{
         margin-left: auto;
         margin-right: auto;
         display: block
-    }
+	}
+	#planet{
+		height: 200px;
+		margin-left: auto;
+        margin-right: auto;
+        display: block
+	}
     #birth_constellation{
         top: 20px;
         text-align: center;
@@ -1209,17 +1242,56 @@ p{
 @media(max-width: 620px){
     .planet{
         height: 200px;
-    }
+	}
+	#planet{
+		height: 100px;
+	}
 }
 @media(max-width: 467px){
     #virgo_info{
         height: 700px;
+	}
+	#taurus_info{
+        height: 620px;
+	}
+	#scorpio_info{
+        height: 620px;
+	}
+	#sagi_info{
+        height: 620px;
+	}
+	#pisces_info{
+        height: 620px;
+	}
+	#libra_info{
+        height: 620px;
+	}
+	#cap_info{
+        height: 620px;
+	}
+	#can_info{
+        height: 620px;
+	}
+	#aries_info{
+        height: 620px;
+	}
+	#aqua_info{
+        height: 620px;
+	}
+	#leo_info{
+        height: 620px;
+	}
+	#gem_info{
+        height: 620px;
     }
 }
 @media(max-width: 414px){
     .planet{
         height: 150px;
-    }
+	}
+	#planet{
+		height: 50px;
+	}
     #sign_info_container{
         top: 160px;
     }
