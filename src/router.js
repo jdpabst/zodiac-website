@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
@@ -21,15 +20,15 @@ export default (
         <Route component={ Home } path='/' exact />
         <Route component={ Virgo } path='/virgo' />
         <Route component={ Taurus } path='/taurus' />
-        <Route component={ Scorpio } path='/scorpio'/>
-        <Route component={ Sagi } path='/sagi'/>
-        <Route component={ Pisces } path='/pisces'/>
-        <Route component={ Libra } path='/libra'/>
-        <Route component={ Cap } path='/cap'/>
-        <Route component={ Can } path='/can'/>
-        <Route component={ Aries } path='/aries'/>
-        <Route component={ Aqua } path='/aqua'/>
-        <Route component={ Leo } path='/leo'/>
-        <Route component={ Gem } path='/gem'/>
+        <Route component={ Scorpio } path='/scorpio' />
+        <Route component={ Sagi } path='/sagi' />
+        <Route component={ Pisces } path='/pisces' />
+        <Route component={ Libra } path='/libra' />
+        <Route component={ Cap } path='/cap' />
+        <Route component={ Can } path='/can' />
+        <Route component={ Aries } path='/aries' />
+        <Route component={ Aqua } path='/aqua' />
+        <Route component={ Leo } path='/leo' />
+        <Route component={ Gem } path='/gem' />
     </Switch>
 )

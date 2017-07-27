@@ -11,6 +11,12 @@
     position: relative; 
     top: 130px;  
 }
+@media(max-width: 1700px){
+    #sign_holder{
+        width: 80%;
+        top: 75px;
+    }
+}
 #sign_holder img{
     position: relative;
      /* border: 2px solid white;   */

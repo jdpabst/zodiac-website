@@ -7,6 +7,7 @@ const userCtrl = require('./userController');
 const app = module.exports = express();
 
 app.use(bodyParser.json());
+app.use(express.static(__dirname + './../build'))
 app.use(cors());
 
 massive({
@@ -24,6 +25,18 @@ massive({
 })
 
 //////////Endpoints for the front end/////////////////
+app.get('/api/signs', userCtrl.virgo)
+app.get('/api/signs', userCtrl.taurus)
+app.get('/api/signs', userCtrl.scorpio)
+app.get('/api/signs', userCtrl.sagi)
+app.get('/api/signs', userCtrl.pisces)
+app.get('/api/signs', userCtrl.libra)
+app.get('/api/signs', userCtrl.cap)
+app.get('/api/signs', userCtrl.can)
+app.get('/api/signs', userCtrl.aries)
+app.get('/api/signs', userCtrl.aqua)
+app.get('/api/signs', userCtrl.leo)
+app.get('/api/signs', userCtrl.gem)
 
 
 

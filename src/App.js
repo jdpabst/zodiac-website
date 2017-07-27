@@ -3,7 +3,6 @@ import router from './router';
 
 import './reset.css';
 import './App.css';
-import './css/animations.css'
 
 class App extends Component {
 
