@@ -122,15 +122,16 @@ p{
         height: 200px;
     }
 }
-@media(min-width: 414px){
+@media(max-width: 467px){
     #virgo_info{
         height: 700px;
     }
+}
+@media(max-width: 414px){
     .planet{
         height: 150px;
-        left: 6px;
     }
     #sign_info_container{
-        top: 150px;
+        top: 160px;
     }
 }
