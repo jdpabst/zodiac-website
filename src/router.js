@@ -1,19 +1,20 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import Home from './components/Home/Home.js';
-import Virgo from './components/Virgo/Virgo.js';
-import Taurus from './components/Taurus/Taurus.js';
-import Scorpio from './components/Scorpio/Scorpio.js';
-import Sagi from './components/Sagi/Sagi.js';
-import Pisces from './components/Pisces/Pisces.js';
-import Libra from './components/Libra/Libra.js';
-import Cap from './components/Cap/Cap.js';
-import Can from './components/Can/Can.js';
-import Aries from './components/Aries/Aries.js';
-import Aqua from './components/Aqua/Aqua.js';
-import Leo from './components/Leo/Leo.js';
-import Gem from './components/Gem/Gem.js';
+import Home from './components/Home/Home';
+import Virgo from './components/Virgo/Virgo';
+import Taurus from './components/Taurus/Taurus';
+import Scorpio from './components/Scorpio/Scorpio';
+import Sagi from './components/Sagi/Sagi';
+import Pisces from './components/Pisces/Pisces';
+import Libra from './components/Libra/Libra';
+import Cap from './components/Cap/Cap';
+import Can from './components/Can/Can';
+import Aries from './components/Aries/Aries';
+import Aqua from './components/Aqua/Aqua';
+import Leo from './components/Leo/Leo';
+import Gem from './components/Gem/Gem';
+import About from './components/About/About';
 
 export default (
     <Switch>
@@ -30,5 +31,6 @@ export default (
         <Route component={ Aqua } path='/aqua' />
         <Route component={ Leo } path='/leo' />
         <Route component={ Gem } path='/gem' />
+        <Route component={ About } path='/about' />
     </Switch>
 )

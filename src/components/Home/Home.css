@@ -130,6 +130,22 @@
   -webkit-animation:move-clouds-back 200s linear infinite;
   animation:move-clouds-back 200s linear infinite;
 }
+#about{
+    height: auto;
+    width: auto;
+    color: white;
+    font-size: 20px;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 5;
+    bottom: 30px;
+    left: 30px;
+    font-family: 'Megrim', cursive;
+}
+#about:hover{
+    opacity: 1;
+    cursor: pointer;
+}
 
 
 

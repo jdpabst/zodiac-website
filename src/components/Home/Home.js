@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Signs from './Signs/Signs'
+import {Link} from 'react-router-dom';
 
 import './Home.css';
 import virgo from './../../img/virgo.png'
@@ -17,6 +18,9 @@ class Home extends Component {
         <div id="home_title" className="fadeIn">
           <h1 className="floating">empyrean</h1>
         </div>
+        <Link to="/about">
+          <div id='about'>About</div>
+        </Link>
         <Signs />
       </div>
     );
