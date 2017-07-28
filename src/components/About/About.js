@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 
 import './About.css';
+import me from  './img/me.jpg';
 
 class About extends Component {
 
@@ -18,6 +19,15 @@ class About extends Component {
             <h1 className="floating">about</h1>
           </div>
         </Link>
+        <div id="content">
+            <img src={ me }/>
+            <p></p>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
       </div>
     );
   }
