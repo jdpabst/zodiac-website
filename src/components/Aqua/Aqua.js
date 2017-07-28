@@ -27,7 +27,7 @@ class Aqua extends Component {
         <div id="animations">
           <div className="stars"></div>
           <div className="twinkling"></div>
-          {/* <div className="clouds"></div>  */}
+          <div className="alien"></div>
         </div>
         <Link to='/' style={{textDecoration: 'none'}}>
           <div id="home_title" className="fadeIn">

@@ -1099,17 +1099,45 @@ stretchRight
 		-webkit-transform: scaleX(1);
 	}		
 }
-#comets{
+#comets1{
 	position: absolute;
 	display: block;
 	top: 103px;
 	left: 2000px;
 	transform: rotate(180deg);
-	animation: comets-opp 20s infinite; 
+	animation: comets1 20s infinite; 
 	height: 50px;
 	width: 95px;
 	/* background: white; */
 	background: transparent url(https://m.simplyscience.ch/tl_files/welt/Komet_lexell.png) center no-repeat; 
+	background-size: cover;
+	z-index: 3;
+}
+#comets2{
+	position: absolute;
+	display: block;
+	top: 2000px;
+	left: 80px;
+	 transform: rotate(300deg); 
+	animation: comets2 30s infinite; 
+	height: 60px;
+	width: 150px;
+	/* background: white; */
+	background: transparent url(https://m.simplyscience.ch/tl_files/welt/Komet_lexell.png) center no-repeat; 
+	background-size: cover;
+	z-index: 3;
+}
+.alien{
+	position: absolute;
+	display: block;
+	top: 2000px;
+	left: 500px;
+	   transform: rotate(90deg);   
+	animation: alien 15s infinite; 
+	height: 60px;
+	width: 60px;
+	/* background: white; */
+	background: transparent url(http://www.clker.com/cliparts/Q/m/S/Z/Q/F/rocket-ship-md.png) center no-repeat; 
 	background-size: cover;
 	z-index: 3;
 }
@@ -1129,7 +1157,7 @@ stretchRight
 #planet{
 	height: 300px;
 	position: relative;
-	animation: infinite-spinning 90s infinite;
+	/* animation: infinite-spinning 90s infinite; */
 }
 #birth_constellation{
     position: absolute; 
@@ -1320,7 +1348,15 @@ p{
     transform: rotate(360deg);
   }
 }
-@keyframes comets-opp{
-	from{ top: 580px; left: 2000px;; }
-    to{ top: -950px; left: -1100px}
+@keyframes comets1{
+	from{ top: 580px; left: 2000px }
+    to{ top: -950px; left: -1100px }
+}
+@keyframes comets2{
+	from{ top: 1000px; left: 50px }
+    to{ top: -950px; left: 2800px }
+}
+@keyframes alien{
+	from{ top: 1000px; left: 800px }
+    to{ top: -950px; left: 2800px }
 }

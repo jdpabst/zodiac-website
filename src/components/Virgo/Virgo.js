@@ -30,7 +30,7 @@ class Virgo extends Component {
         <div id="animations">
           <div className="stars"></div>
           <div className="twinkling"></div>
-          {/* <div className="clouds"></div>  */}
+          <div id="comets2"></div>
         </div>
         <Link to='/' style={{textDecoration: 'none'}}>
           <div id="home_title" className="fadeIn">

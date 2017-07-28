@@ -29,7 +29,7 @@ class Taurus extends Component {
         <div id="animations">
           <div className="stars"></div>
           <div className="twinkling"></div>
-          <div id="comets"></div>   
+          <div id="comets1"></div>   
         </div>
         <Link to='/' style={{textDecoration: 'none'}}>
           <div id="home_title" className="fadeIn">
