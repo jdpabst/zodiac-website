@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 
 import './About.css';
-import me from  './img/me.jpg';
 
 class About extends Component {
 
@@ -16,18 +15,19 @@ class About extends Component {
         </div>
         <Link to='/' style={{textDecoration: 'none'}}>
           <div id="home_title" className="fadeIn">
-            <h1 className="floating">about</h1>
+            <h1>about</h1>
           </div>
         </Link>
         <div id="content">
-            <img src={ me }/>
-            <p></p>
+            <div className='img'></div>
+            <p id="p">Hi there! Thanks for visiting Empyrean, a project inspired by the mysteries of the stars. I hope you enjoyed it! Check me out on GitHub, LinkedIn, or my portfolio to see more of my work. Feel free to contact me with any opportunities or questions.</p>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a href="https://github.com/jdpabst" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/jessica-pabst/" target="_blank">LinkedIn</a></li>
+                <li><a href="http://jdpabst.com/" target="_blank">Portfolio</a></li>
             </ul>
         </div>
+        
       </div>
     );
   }

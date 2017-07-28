@@ -141,6 +141,7 @@
     bottom: 30px;
     left: 30px;
     font-family: 'Megrim', cursive;
+    font-size: 30px;
 }
 #about:hover{
     opacity: 1;

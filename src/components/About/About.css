@@ -3,11 +3,95 @@
     height: 100vh;
     position: relative;
 }
-#content img{
-    height: 100px;
-    width: 10px;
-    border: 2px solid white;
+#content{
     position: absolute;
-    top: 0;
-    left: 0
+    top: calc(50% - 300px);
+    left: calc(50% - 400px);
+    /* background: transparent url(http://www.imghouse.net/images/50924212120187184603.png) center no-repeat; */
+    background-size: cover;
+    height: 600px;
+    width: 800px;
+    z-index: 5;
+    /* border: 2px solid white;   */
+    
+}
+@keyframes float{
+    from {
+    transform: rotate(0deg) translate3d(3px, 0, 0) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translate3d(3px, 0, 0) rotate(-360deg);
+  }
+}
+#content .img{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid white; */
+    background: url('./img/me.jpg') center no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: calc(50% - 150px);
+    animation: float 2s infinite linear;
+}
+#p{
+    color: white;
+    font-family: 'Walter Turncoat', cursive;
+    position: absolute;
+    top: 400px;
+    left: 2.5%;
+    z-index: 5;
+    font-weight: 100;
+    height: auto;
+    width: 95%;
+    font-size: 20px;
+}
+@media(max-width: 847px){
+    #content{
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}
+@media(max-width: 555px){
+    #content{
+        width: 350px;
+        left: calc(50% - 175px)
+    }
+}
+@media(max-width: 385px){
+    #content{
+        width: 280px;
+        left: calc(50% - 140px);
+    }
+    #p{
+        top: 375px;
+    }
+    #content .img{
+        height: 200px;
+        width: 200px;
+        top: 150px;
+        left: calc(50% - 100px);
+    }
+}
+
+ul{
+    position: absolute;
+    bottom: 10px;
+    left: calc(50% - 125px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 280px;
+    z-index: 5;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Megrim', cursive;
+    font-size: 20px;
+}
+li a:hover{
+    text-decoration: underline;
 }

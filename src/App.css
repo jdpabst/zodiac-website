@@ -1193,7 +1193,7 @@ p{
     font-weight: 100;
     font-size: 20px;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 100px;
 }
 @media(max-width: 1409px){
     .planet{
@@ -1243,6 +1243,7 @@ p{
 	}
 	#cap_p{
 		font-size: 16px;
+		margin-top: 60px;
 	}
 }
 /* @media(min-height: 1000px){
@@ -1326,7 +1327,10 @@ p{
 	}
 	#gem_info{
         height: 620px;
-    }
+	}
+	#cap_p{
+		margin-top: 40px
+	}
 }
 @media(max-width: 414px){
     .planet{
