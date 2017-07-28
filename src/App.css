@@ -1099,22 +1099,37 @@ stretchRight
 		-webkit-transform: scaleX(1);
 	}		
 }
-
+#comets{
+	position: absolute;
+	display: block;
+	top: 103px;
+	left: 2000px;
+	transform: rotate(180deg);
+	animation: comets-opp 20s infinite; 
+	height: 50px;
+	width: 95px;
+	/* background: white; */
+	background: transparent url(https://m.simplyscience.ch/tl_files/welt/Komet_lexell.png) center no-repeat; 
+	background-size: cover;
+	z-index: 3;
+}
 #sign_info_container{
     position: absolute;
-    width: 55%;
+    width: 50%;
     top: 220px;
-    left: 22.5%;
+    left: 25%;
     height: auto;
     z-index: 5;
 }
 .planet{
     height: 400px;
-    position: relative;
+	position: relative;
+	animation: infinite-spinning 90s infinite;
 }
 #planet{
 	height: 300px;
 	position: relative;
+	animation: infinite-spinning 90s infinite;
 }
 #birth_constellation{
     position: absolute; 
@@ -1142,7 +1157,7 @@ p{
     font-weight: 100;
     font-size: 20px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 #cap_p{
 	color: #fff;
@@ -1295,4 +1310,17 @@ p{
     #sign_info_container{
         top: 160px;
     }
+}
+
+@keyframes infinite-spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes comets-opp{
+	from{ top: 580px; left: 2000px;; }
+    to{ top: -950px; left: -1100px}
 }

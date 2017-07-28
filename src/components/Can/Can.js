@@ -44,7 +44,7 @@ class Can extends Component {
                 <h2 className='birth'>{ signs[id].birthday }</h2>
                 <img className='constellation' src={ signs[id].constellation }/>
               </div>
-              <p id="cap_p" className='history'>{ signs[id].history }</p>
+              <p id="p" className='history'>{ signs[id].history }</p>
             </div>
           })}
         </div>

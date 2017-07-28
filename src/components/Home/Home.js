@@ -12,7 +12,7 @@ class Home extends Component {
         <div id="animations">
           <div className="stars"></div>
           <div className="twinkling"></div>
-           {/* <div className="clouds"></div>   */}
+            <div className="comet"></div>   
         </div>
         <div id="home_title" className="fadeIn">
           <h1 className="floating">empyrean</h1>
